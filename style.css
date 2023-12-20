@@ -1,0 +1,8 @@
+body{
+	background-image: url("ocean.jpg");
+	-webkit-fill-color: whitesmoke;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
