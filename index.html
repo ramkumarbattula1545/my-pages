@@ -3,6 +3,15 @@
 		<title>my page</title>
 		<link rel="stylesheet" href="style.css">
 		<link rel="icon" type="image.jpg" href="hill1.jpg">
+		<script>
+			// Check if the 'visited' cookie exists
+			if (document.cookie.indexOf("visited") === -1) {
+  				// If not, set the cookie and display the welcome message
+ 			 	document.cookie = "visited=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/";
+				alert("Hello..Welcome to our website!");
+;
+				}
+		</script>
         </head>
 	<body style="color:black" align="center">
 		<h1><b><i>SCIENTIST RAM</i></b></h1></br>
